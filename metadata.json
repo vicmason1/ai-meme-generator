@@ -1,0 +1,5 @@
+{
+  "name": "AI Meme Generator",
+  "description": "An AI-powered meme generator that uses Gemini to create funny captions and edit images. Users can upload images or use templates, generate captions, translate them into multiple languages, and apply AI-powered edits with text prompts.",
+  "requestFramePermissions": []
+}
