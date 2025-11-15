@@ -50,6 +50,7 @@ export const generateCaptions = async (imageBase64: string): Promise<string[]> =
         }
     } catch (e) {
         console.error("Failed to parse captions JSON:", e);
+        throw new Error(`Failed to parse captions JSON: ${e}`);
     }
     throw new Error("Could not generate or parse captions from API response.");
 };
